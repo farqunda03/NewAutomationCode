@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TN Para Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="emailTextbox" value="input-email"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="LocatorLoginButton" value="input.btn.btn-primary"/>
+  <parameter name="LinkLogin" value="Login"/>
+  <parameter name="url" value="http://tutorialsninja.com/demo"/>
+  <parameter name="LinkMyAccount" value="My Account"/>
+  <parameter name="email" value="seleniumpanda@gmail.com"/>
+  <parameter name="passwordTextbox" value="input-password"/>
+  <parameter name="Password" value="Selenium@123"/>
+  <test thread-count="5" name="TN Para Test(failed)">
+    <classes>
+      <class name="testng_code_Parameterization_30_apr_2023.TN_Parameterize">
+        <methods>
+          <include name="teardown"/>
+          <include name="TNLoginTest"/>
+        </methods>
+      </class> <!-- testng_code_Parameterization_30_apr_2023.TN_Parameterize -->
+    </classes>
+  </test> <!-- TN Para Test(failed) -->
+</suite> <!-- Failed suite [TN Para Suite] -->

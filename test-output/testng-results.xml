@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-02T08:20:23 GMT-04:00" name="Default suite" finished-at="2023-06-02T08:20:40 GMT-04:00" duration-ms="16051">
+    <groups>
+    </groups>
+    <test started-at="2023-06-02T08:20:23 GMT-04:00" name="Default test" finished-at="2023-06-02T08:20:40 GMT-04:00" duration-ms="16051">
+      <class name="automation_code_DatePicker_14th_May_2023.DatePicker">
+        <test-method signature="seleniumPraciseBlogspotCalendar()[pri:0, instance:automation_code_DatePicker_14th_May_2023.DatePicker@1e1a0406]" started-at="2023-06-02T08:20:24 GMT-04:00" name="seleniumPraciseBlogspotCalendar" finished-at="2023-06-02T08:20:40 GMT-04:00" duration-ms="15986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumPraciseBlogspotCalendar -->
+      </class> <!-- automation_code_DatePicker_14th_May_2023.DatePicker -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

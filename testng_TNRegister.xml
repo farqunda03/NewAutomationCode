@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TN Register Suite">
+
+
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" value="https://tutorialsninja.com/demo/" />
+	<parameter name="LinkMyAccount" value="My Account" />
+	<parameter name="LinkRegister" value="Register" />
+	<parameter name="LinkFirstname" value="//input[@name='firstname']" />
+	<parameter name="LinkLastname" value="//input[@id='input-lastname']" />
+	<parameter name="LinkEmail" value="//input[@name= 'email']" />
+	<parameter name="LinkTelephone" value="//input[@name= 'telephone']" />
+	<parameter name="LinkPassword" value="//input[@name='password']" />
+	<parameter name="LinkConfirmPassword" value="//input[@name='confirm']" />
+	<parameter name="Firstname" value="farqunda" />
+	<parameter name="Lastname" value="afsar" />
+	<parameter name="Email" value="farqunda.afsar10@gmail.com" />
+	<parameter name="Telephone" value="123456789" />
+	<parameter name="Password" value="Selenium@123" />
+	<parameter name="ConfirmPassword" value="Selenium@123" />
+	<parameter name="PolicyButton" value="//input[@name='agree']" />
+	<parameter name="ContinueButton" value="input.btn.btn-primary" />
+
+
+	<test name="TN Register Test">
+		<classes>
+			<class
+				name="testng_code_Parameterization_30_apr_2023.TN_Register_para" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

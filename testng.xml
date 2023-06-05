@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Batch Running Test Suite">
+  <test name="Batch Running Test">
+    <classes>
+      <class name="testng_code_BatchRunning_24_Apr_2023.TNLoginTest"/>
+      <class name="testng_code_BatchRunning_24_Apr_2023.RediffLoginTest"/>
+      <class name="testng_code_BatchRunning_24_Apr_2023.TNRegisterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

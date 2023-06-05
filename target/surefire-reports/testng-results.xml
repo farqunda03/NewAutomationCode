@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-29T11:34:26 GMT-04:00" name="Batch Running Test Suite" finished-at="2023-05-29T11:35:09 GMT-04:00" duration-ms="43263">
+    <groups>
+    </groups>
+    <test started-at="2023-05-29T11:34:26 GMT-04:00" name="Batch Running Test" finished-at="2023-05-29T11:35:09 GMT-04:00" duration-ms="43263">
+      <class name="testng_code_BatchRunning_24_Apr_2023.TNLoginTest">
+        <test-method signature="enterTNLoginDetails()[pri:0, instance:testng_code_BatchRunning_24_Apr_2023.TNLoginTest@12468a38]" started-at="2023-05-29T11:34:26 GMT-04:00" name="enterTNLoginDetails" finished-at="2023-05-29T11:34:43 GMT-04:00" duration-ms="17062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTNLoginDetails -->
+      </class> <!-- testng_code_BatchRunning_24_Apr_2023.TNLoginTest -->
+      <class name="testng_code_BatchRunning_24_Apr_2023.TNRegisterTest">
+        <test-method signature="tnRegister()[pri:0, instance:testng_code_BatchRunning_24_Apr_2023.TNRegisterTest@515aebb0]" started-at="2023-05-29T11:34:54 GMT-04:00" name="tnRegister" finished-at="2023-05-29T11:35:09 GMT-04:00" duration-ms="14621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tnRegister -->
+      </class> <!-- testng_code_BatchRunning_24_Apr_2023.TNRegisterTest -->
+      <class name="testng_code_BatchRunning_24_Apr_2023.RediffLoginTest">
+        <test-method signature="enterRediffLoginDetails()[pri:0, instance:testng_code_BatchRunning_24_Apr_2023.RediffLoginTest@37afeb11]" started-at="2023-05-29T11:34:43 GMT-04:00" name="enterRediffLoginDetails" finished-at="2023-05-29T11:34:54 GMT-04:00" duration-ms="11516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterRediffLoginDetails -->
+      </class> <!-- testng_code_BatchRunning_24_Apr_2023.RediffLoginTest -->
+    </test> <!-- Batch Running Test -->
+  </suite> <!-- Batch Running Test Suite -->
+</testng-results>

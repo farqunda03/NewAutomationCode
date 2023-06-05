@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TN Register Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="LinkPassword" value="//input[@name=&#039;password&#039;]"/>
+  <parameter name="Email" value="farqunda.afsar10@gmail.com"/>
+  <parameter name="PolicyButton" value="//input[@name=&#039;agree&#039;]"/>
+  <parameter name="LinkFirstname" value="//input[@name=&#039;firstname&#039;]"/>
+  <parameter name="Telephone" value="123456789"/>
+  <parameter name="LinkLastname" value="//input[@id=&#039;input-lastname&#039;]"/>
+  <parameter name="ContinueButton" value="input.btn.btn-primary"/>
+  <parameter name="Lastname" value="afsar"/>
+  <parameter name="LinkEmail" value="//input[@name= &#039;email&#039;]"/>
+  <parameter name="url" value="https://tutorialsninja.com/demo/"/>
+  <parameter name="LinkMyAccount" value="My Account"/>
+  <parameter name="ConfirmPassword" value="Selenium@123"/>
+  <parameter name="LinkTelephone" value="//input[@name= &#039;telephone&#039;]"/>
+  <parameter name="LinkRegister" value="Register"/>
+  <parameter name="LinkConfirmPassword" value="//input[@name=&#039;confirm&#039;]"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="Fristname" value="farqunda"/>
+  <parameter name="Password" value="Selenium@123"/>
+  <test thread-count="5" name="TN Register Test(failed)">
+    <classes>
+      <class name="testng_code_Parameterization_30_apr_2023.TN_Register_para">
+        <methods>
+          <include name="TNRegisterTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testng_code_Parameterization_30_apr_2023.TN_Register_para -->
+    </classes>
+  </test> <!-- TN Register Test(failed) -->
+</suite> <!-- Failed suite [TN Register Suite] -->
